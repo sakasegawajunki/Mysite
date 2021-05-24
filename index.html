@@ -2,6 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/e670380ffd.js"
       crossorigin="anonymous"
@@ -13,6 +14,14 @@
   </head>
   <body>
     <header>
+      <div id="hm-icon">
+        <a class="menu-tigger" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+
       <div class="container">
         <a href="#mv">
           <img class="logo" src="img/logo.png" alt="ロゴ" />
@@ -22,6 +31,7 @@
           <span class="list-bar"></span>
           <span class="list-bar"></span>
         </div>
+        <div id="sp-menu">
         <nav class="nav-lists">
           <ul>
             <li>Portfolio</li>
@@ -30,6 +40,7 @@
             <li>Contact</li>
           </ul>
         </nav>
+        </div>
       </div>
     </header>
     <main>
@@ -70,6 +81,7 @@
           distribution of letters
         </p>
         <div class="icon-group">
+          <div class="icons">
           <div class="icon">
             <i class="fa fa-code size"></i>
             <h3>Strength1</h3>
@@ -81,19 +93,20 @@
               the more obscure Latin words, consectetur
             </p>
           </div>
-          <div class="icon">
-            <i class="fa fa-desktop size"></i>
-            <h3>Strength2</h3>
-            <p class="stregth-text">
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old. Richard McClintock, a Latin
-              professor at Hampden-Sydney College in Virginia, looked up one of
-              the more obscure Latin words, consectetur
-            </p>
-          </div>
-          <div class="icon">
-            <i class="fa fa-cogs size"></i>
+
+            <div class="icon">
+              <i class="fa fa-desktop size"></i>
+              <h3>Strength2</h3>
+              <p class="stregth-text">
+                Contrary to popular belief, Lorem Ipsum is not simply random text.
+                It has roots in a piece of classical Latin literature from 45 BC,
+                making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of
+                the more obscure Latin words, consectetur
+              </p>
+            </div>
+            <div class="icon">
+              <i class="fa fa-cogs size"></i>
             <h3>Strength3</h3>
             <p class="stregth-text">
               Contrary to popular belief, Lorem Ipsum is not simply random text.
@@ -104,8 +117,9 @@
             </p>
           </div>
         </div>
+        </div>
       </section>
-
+      
       <section class="profile">
         <h2 class="profile-title">profile</h2>
         <div class="border"></div>
@@ -141,12 +155,11 @@
         <div class="border"></div>
         <p class="contact-text">
           It is a long established fact that a reader will be distracted by the
-          readable <br>content of a page when looking at its layout.<br >The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters
+          readable <br />content of a page when looking at its layout.<br />The
+          point of using Lorem Ipsum is that it has a more-or-less normal
+          distribution of letters
         </p>
         <div class="contact-group">
-
           <div class="contact-show">
             <h3 class="mail">Mail</h3>
             <a href="#">xxx@xxx.com</a>
@@ -160,13 +173,13 @@
               <i class="fa fa-twitter size1"></i>
               <i class="fa fa-instagram size1"></i>
             </div>
-
           </div>
         </div>
-        </section>
+      </section>
     </main>
     <footer>
       <p class="footer-text">🄫2017 WebCamp</p>
     </footer>
+    
   </body>
 </html>

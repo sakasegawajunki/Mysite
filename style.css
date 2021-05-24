@@ -324,3 +324,285 @@ width: 250px;
     text-align: center;
     line-height: 60px;
   }
+
+
+  #hm-icon {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    z-index: 10;
+  }
+
+
+
+  @media screen and (max-width: 767px){
+    
+    header {
+      width: 90%;
+      height: 50px;
+
+    }
+
+    
+.main-visual {
+  width: 90%;
+  height: 650px;
+  background-image: url(img/code.png);
+  background-position: bottom;
+  background-size: cover;
+  display: inline-block;
+}
+
+h1 {
+  color: #fafafa;
+  font-size: 40px;
+  margin-top: 200px;
+  margin-bottom: 8px;
+}
+
+p {
+  color: #fafafa;
+  font-size: 18px;
+}
+.portfolio {
+  background-color: #eceff1;
+  width: 90%;
+  text-align: center;
+  padding-top: 90px;
+}
+
+h2 {
+  font-size: 32px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.p-portfolio {
+
+  color: #000;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.border {
+  border-bottom: 3px solid #ec715f;
+  display: inline-block;
+  width: 70px;
+  margin-bottom: 30px;
+}
+
+.portfolio-image-list {
+  text-align: center;
+  display: block;
+  
+}
+.portfolio-image1 {
+  background-image: url(img/sketch.jpg);
+  height: 250px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.portfolio-image2 {
+  background-image: url(img/websuku.png);
+  height: 250px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.portfolio-image3 {
+  background-image: url(img/write.jpg);
+  height: 250px;
+  width: 300px;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.portfolio-image4,.portfolio-image5,.portfolio-image6{
+  display: none;
+}
+
+
+.Feature {
+  width: 90%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.Feature-title {
+  text-align: center;
+  font-size: 32px;
+}
+
+.Feature-text {
+  color: #000;
+  font-size: 16px;
+  margin: 30px auto;
+}
+
+.stregth-text {
+  color: #000;
+  margin: 30px auto;
+  text-align: left;
+}
+
+.icons {
+  display: block;
+}
+
+.icon {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
+    main {
+      width: 90%;
+    }
+
+    footer {
+      width: 90%;
+    }
+    .profile {
+      width: 90%;
+      background-color: #eceff1;
+      margin: 0 auto;
+      text-align: center;
+      padding-top : 90px;
+      padding-bottom: 90px;
+    }
+    
+    .profile-title {
+      text-align: center;
+      width: 90%;
+    }
+    
+    .profile-text {
+      margin-bottom: 30px;
+      text-align: center;
+      width: 90%;
+    }
+    
+    .profile-text,.mynam-text,.myskils-text,.contact-text,.myskils{
+      color: #000;
+      font-size: 16px;
+      text-align: center;
+      width: 90%;
+    }
+    .profile-group {
+      display: block;
+      margin: 0 auto;
+    }
+    
+    
+    
+    img {
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    margin: 0 auto;
+    }
+    
+  
+    
+    .myname {
+        font-size: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+      }
+    
+      .myname-text {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+    
+      .myskils {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+    
+      .contact {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 90px;
+        padding-bottom: 90px;
+      }
+    
+      .contact-tilte {
+        font-size: 32px;
+      }
+    
+      .contact-text {
+        width: 90%;
+        text-align: center;
+      }
+    
+      .contact-group {
+        display: block;
+        justify-content: center;
+      }
+      .mail {
+        font-size: 20px;
+        margin-bottom: 5px;
+        justify-content: center;
+      }
+    
+      .tel {
+        margin-top: 20px;
+        margin-bottom: 5px;
+        text-align: center;
+      }
+    
+      .contact-show{
+        width: 90%;
+        margin:  0 auto;
+      }
+    
+      .contact-show2 {
+        width: 90%;
+        
+      }
+
+      .icon {
+        margin: 0 auto;
+        width: 90%;
+      }
+
+      .sns{
+        font-size: 20px;
+      }
+    
+      .size1 {
+        font-size: 50px;
+      }
+      
+      .fa-twitter {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      a{
+        color: black;
+      }
+    
+      footer {
+        background-color: #ec715f;
+        height: 60px;
+      }
+    
+      .footer-text {
+        font-size: 16px;
+        color: #FAFAFA;
+        text-align: center;
+        line-height: 60px;
+      }
+    
+    
+
+  }
